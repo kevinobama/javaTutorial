@@ -38,7 +38,8 @@ Find here more information about Redis for Linux and Macintosh, they have very s
 
 After that we can directly dive in and connect to it from our Java code:
 
-1
+import redis.clients.jedis.Jedis;
+
 Jedis jedis = new Jedis();
 The default constructor will work just fine unless you have started the service on a non-default port or a remote machine, in which case you can configure it correctly by passing the correct values as parameters into the constructor.
 
