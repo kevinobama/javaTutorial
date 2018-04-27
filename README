@@ -1,3 +1,15 @@
 Not to be confused with JavaScript, this general-purpose language was designed to be easier to use than C++, which was a notoriously complex language. 90% of the Fortune 500 companies have since used Java to develop desktop apps and website backend systems.
 
 Java is a highly portable language as it must be executed through a cross-platform compatible Java Virtual Machine (JVM).Furthermore, Android apps are also developed using Java since the Android Operating System runs on a Java language environment.
+
+https://mvnrepository.com/artifact/redis.clients/jedis/1.5.2
+
+// https://mvnrepository.com/artifact/redis.clients/jedis
+libraryDependencies += "redis.clients" % "jedis" % "1.5.2"
+
+<!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+<dependency>
+    <groupId>redis.clients</groupId>
+    <artifactId>jedis</artifactId>
+    <version>1.5.2</version>
+</dependency>
