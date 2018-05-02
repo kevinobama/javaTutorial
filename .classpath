@@ -8,5 +8,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/var/www/java/javaTutorial/jedis-1.5.2.jar"/>
 	<classpathentry kind="lib" path="/var/www/java/javaTutorial/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="/var/www/java/jackson-annotations-2.9.5.jar"/>
+	<classpathentry kind="lib" path="/var/www/java/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="/var/www/java/jackson-databind-2.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
