@@ -1,7 +1,9 @@
 package kevinGates;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapExample {
 
@@ -16,6 +18,16 @@ public class HashMapExample {
 	   users.put(1, "kevingates");
 	   users.put(2, "billgates");
 	   users.put(3, "obama");
+	   
+	   int size = users.size();
+	   boolean isEmpty = users.isEmpty();
+	   Set<Integer> keys = users.keySet();
+	   Collection<String> values = users.values();
+	   
+	   System.out.println(size);
+	   System.out.println(isEmpty);
+	   System.out.println(keys);
+	   System.out.println(values);
 	   
 	   System.out.println(users);
 	   System.out.println(users.get(2));
