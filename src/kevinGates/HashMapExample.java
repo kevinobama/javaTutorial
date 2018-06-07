@@ -4,12 +4,14 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import kevinGates.java.util.HashMapKevin;
 
 public class HashMapExample {
 
    public static void main(String args[]) {
 	   
-	   hashMapExampleOne();	   
+	   //hashMapExampleOne();
+	   hashMapExampleTwo();
    }
    
    public static void hashMapExampleOne() {
@@ -35,5 +37,14 @@ public class HashMapExample {
 	   System.out.println(users.get(3));	   
 	   users.clear();
 	   System.out.println(users.get(1));
+   }
+   
+   public static void hashMapExampleTwo() {
+	   HashMapKevin users = new HashMapKevin<Integer, String>();
+	   //users.echo("map");
+	   users.echo("data");
+	   
+	   HashMapKevin usersOne = new HashMapKevin<Integer, String>(88);
+	   usersOne.echo("usersOne="+usersOne.currentKey);
    }
 }
