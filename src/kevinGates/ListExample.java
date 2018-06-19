@@ -26,7 +26,7 @@ public class ListExample {
 	    books.add(b1);  
 	    books.add(b2);  
 	    books.add(b3);  
- 
+	    
 	    for(Book book:books) {  
 	    	System.out.println(book.id+" "+book.name+" "+book.author+" "+book.publisher+" "+book.quantity);  
 	    }  		

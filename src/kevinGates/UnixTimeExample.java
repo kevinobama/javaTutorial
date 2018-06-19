@@ -12,7 +12,10 @@ public class UnixTimeExample {
 		//doCalendarTwo();
 
 	      //dateExample();
-	      System.out.println(getMinutesOneDayOne());
+	      //System.out.println(getMinutesOneDayOne());
+		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date currentDate = new Date();
+		System.out.println(dateFormat.format(currentDate));
 	}
 	
 	public static void one(String[] args) {
