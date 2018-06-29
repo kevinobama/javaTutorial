@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="/var/www/java/jackson-annotations-2.9.5.jar"/>
 	<classpathentry kind="lib" path="/var/www/java/jackson-core-2.9.5.jar"/>
 	<classpathentry kind="lib" path="/var/www/java/jackson-databind-2.9.5.jar" sourcepath="/home/kevingates/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5-sources.jar"/>
+	<classpathentry kind="lib" path="/var/www/java/poi-3.0-rc4-20070503.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
