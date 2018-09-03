@@ -13,15 +13,15 @@ public class UserImplementInterface implements UserInterface {
 		System.out.println("data="+user.data());
 	}
 
-//	public void insert() {
-//		
-//	}
-//	
-//	public void update() {
-//		
-//	}
-//	
-//	public void delete() {
-//		
-//	}	
+	public void insert() {
+		System.out.println("data=");
+	}
+	
+	public void update() {
+		System.out.println("data=");
+	}
+	
+	public void delete() {
+		System.out.println("data=");
+	}	
 }
