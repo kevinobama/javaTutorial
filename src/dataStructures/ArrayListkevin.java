@@ -20,6 +20,8 @@ public class ArrayListkevin<T> implements CollectionKevin {
   }
   
   public boolean addAll(int index, CollectionKevin c) {
+	  //array[index] = c;
+	  //for(int i=0;i<c.)
 	  return false;
   }
   
