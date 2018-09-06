@@ -1,5 +1,6 @@
 package dataStructures;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -19,7 +20,12 @@ public class ArrayListkevin<T> implements CollectionKevin {
 	  size ++;
   }
   
-  public boolean addAll(int index, CollectionKevin c) {
+  public boolean addAll(Collection<? extends E>  c) {
+	  addAll(size, c);
+	  return false;
+  }  
+  
+  public boolean addAll(int index, Collection<? extends E>  c) {
 	  T[] merge = (T[]) new Object[array.length + 10];
 	  for(int i=0;i<array.length;i++) {
 		  merge[i] = array[i];

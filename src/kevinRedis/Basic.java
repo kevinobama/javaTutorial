@@ -1,6 +1,5 @@
 package kevinRedis;
 
-
 import redis.clients.jedis.Jedis;
 
 public class Basic {
