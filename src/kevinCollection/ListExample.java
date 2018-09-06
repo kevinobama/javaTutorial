@@ -14,7 +14,8 @@ public class ListExample {
 
 	public static void main(String[] args) {
 		//ExampleThree();
-		iteratingOverAList();
+		//iteratingOverAList();
+		addAllExample();
 	}
 	
 	public static void ExampleOne() {
@@ -131,4 +132,22 @@ public class ListExample {
 //		    System.out.println(iterator.next());
 //		}		
 	}
+	
+	public static void addAllExample() {
+		List<String> countries = new ArrayList<String>();
+		countries.add("Canada");
+		countries.add("United State");
+		countries.add("United Kindom");
+ 		
+		List<String> cities = new LinkedList<String>();
+		cities.add("New York");
+		cities.add("WC");
+		cities.add("silicone sealant");
+		
+		List<String> countriesAndCities = new ArrayList<String>(); 		
+		countriesAndCities.addAll(countries);
+		countriesAndCities.addAll(cities);
+		
+		System.out.println(countriesAndCities);
+	}	
 }

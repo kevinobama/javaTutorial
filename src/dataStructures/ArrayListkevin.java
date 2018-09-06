@@ -20,8 +20,14 @@ public class ArrayListkevin<T> implements CollectionKevin {
   }
   
   public boolean addAll(int index, CollectionKevin c) {
-	  //array[index] = c;
-	  //for(int i=0;i<c.)
+	  T[] merge = (T[]) new Object[array.length + 10];
+	  for(int i=0;i<array.length;i++) {
+		  merge[i] = array[i];
+	  }
+	  
+//	  for(int i=0;i<c.length;i++) {
+//		  merge[i] = array[i];
+//	  }	  
 	  return false;
   }
   
@@ -49,6 +55,7 @@ public class ArrayListkevin<T> implements CollectionKevin {
 	  return array;
   }
   public List subList(int start, int end) {
+	  
 	  return null;
   }
 }
