@@ -15,7 +15,8 @@ public class ListExample {
 	public static void main(String[] args) {
 		//ExampleThree();
 		//iteratingOverAList();
-		addAllExample();
+		//addAllExample();
+		iteratingOverAList();
 	}
 	
 	public static void ExampleOne() {
@@ -113,8 +114,6 @@ public class ListExample {
 		listStrings.add("One");
 		listStrings.add("Two");
 		listStrings.add("Three");
-		// But this will cause compile error
-		//listStrings.add(123);
 		
 		List<Number> linkedNumbers = new LinkedList<>();
 		linkedNumbers.add(new Integer(123));
@@ -126,7 +125,13 @@ public class ListExample {
 		while (iterator.hasNext()) {
 		    System.out.println(iterator.next());
 		}
- 
+ 		
+		System.out.println("list iterator Specified");
+		Iterator<String> iteratorSpecified = listStrings.listIterator();
+		while (iteratorSpecified.hasNext()) {
+		    System.out.println(iterator.next());
+		}
+		
 //		Iterator<Number> iterator = linkedNumbers.listIterator();
 //		while (iterator.hasNext()) {
 //		    System.out.println(iterator.next());
